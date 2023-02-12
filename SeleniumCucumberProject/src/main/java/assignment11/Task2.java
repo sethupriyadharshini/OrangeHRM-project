@@ -1,5 +1,6 @@
 package assignment11;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,7 +16,6 @@ public class Task2 {
 		WebElement button = driver.findElement(By.tagName("h1"));
 		Utility.captureScreenShotForWebelement(button);
 		driver.quit();
-
 	}
 
 }

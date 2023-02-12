@@ -68,7 +68,7 @@ public class AddCourseInineuron {
 		}
 		driver.findElement(By.xpath("//div[text()='Select Category']")).click();
 		driver.findElement(By.xpath("//button[text()='Testing']")).click();
-		driver.findElement(By.xpath("//button[text()='Save']")).click();
+	
 		
 		//VERIFY COURSE IS ADDED
 		Thread.sleep(2000);
