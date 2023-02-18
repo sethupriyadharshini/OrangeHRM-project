@@ -5,6 +5,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -33,6 +34,9 @@ public class TestNGTask {
 		driver.findElement(By.id("password1")).sendKeys(pwd);
 		By submit = By.xpath("//button[contains(@type,'submit')]");
 		Utility.clickElement(driver, submit);
+		String actual_title = driver.getTitle();
+		String expected_title = "iNeuron Courses";
+		Assert.assertEquals(actual_title,expected_title);
 		Reporter.log("*****Login method stopped*****", true);
 	}
 
@@ -43,6 +47,9 @@ public class TestNGTask {
 		Utility.elementMove(driver, manage);
 		By manage_course = By.xpath("//span[contains(text(),'Manage Courses')]");
 		Utility.clickElement(driver, manage_course);
+		String actual_url = driver.getCurrentUrl();
+		String expcted_msg = "manage";
+		Assert.assertEquals(actual_url.contains(expcted_msg), true);
 		Reporter.log("*****Manage course method stopped*****", true);
 	}
 
@@ -51,6 +58,9 @@ public class TestNGTask {
 		Reporter.log("*****Add new course method started*****", true);
 		By addnewcouse_button = By.xpath("//*[contains(text(),'Add New')]");
 		Utility.clickElement(driver, addnewcouse_button);
+		String actual_url = driver.getCurrentUrl();
+		String expcted_msg = "manage";
+		Assert.assertEquals(actual_url.contains(expcted_msg), true);
 		Reporter.log("*****Add new course method stopped*****", true);
 	}
 

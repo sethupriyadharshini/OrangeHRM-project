@@ -9,11 +9,11 @@
 		</classes>
 	</test> 
 
-	 <test name="FirefoxTest">
+	 <!--<test name="FirefoxTest">
 		<parameter name="browser" value="Firefox"></parameter>
 		<parameter name="URL" value="https://ineuron-courses.vercel.app/login"></parameter>
 		<classes>
 			<class name="assignment12.TestNGTask" />
 		</classes>
-	</test>
+	</test>-->
 </suite> <!-- Suite -->
