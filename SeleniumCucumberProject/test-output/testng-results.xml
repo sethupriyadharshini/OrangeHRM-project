@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="7" failed="0" skipped="7">
+<testng-results ignored="0" total="7" passed="3" failed="1" skipped="3">
   <reporter-output>
     <line>
       <![CDATA[*****Login method started*****]]>
@@ -22,34 +22,13 @@
     <line>
       <![CDATA[*****Add new course Form method started*****]]>
     </line>
-    <line>
-      <![CDATA[*****Add new course Form method stopped*****]]>
-    </line>
-    <line>
-      <![CDATA[*****Verify new course method started*****]]>
-    </line>
-    <line>
-      <![CDATA[*****Verify new course method stopped*****]]>
-    </line>
-    <line>
-      <![CDATA[*****Verify course delted method started*****]]>
-    </line>
-    <line>
-      <![CDATA[*****Verify course delted method stopped*****]]>
-    </line>
-    <line>
-      <![CDATA[*****Sign out method started*****]]>
-    </line>
-    <line>
-      <![CDATA[*****Sign out method stopped*****]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-02-12T17:19:13 IST" name="Suite" finished-at="2023-02-12T17:19:56 IST" duration-ms="43026">
+  <suite started-at="2023-02-18T17:15:33 IST" name="Suite" finished-at="2023-02-18T17:15:49 IST" duration-ms="15855">
     <groups>
     </groups>
-    <test started-at="2023-02-12T17:19:13 IST" name="ChromeTest" finished-at="2023-02-12T17:19:14 IST" duration-ms="719">
+    <test started-at="2023-02-18T17:15:33 IST" name="ChromeTest" finished-at="2023-02-18T17:15:49 IST" duration-ms="15855">
       <class name="assignment12.TestNGTask">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:assignment12.TestNGTask@5b1669c0]" started-at="2023-02-12T17:19:13 IST" name="setUp" finished-at="2023-02-12T17:19:13 IST" duration-ms="360" status="FAIL">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:assignment12.TestNGTask@69e153c5]" started-at="2023-02-18T17:15:33 IST" name="setUp" finished-at="2023-02-18T17:15:40 IST" duration-ms="6962" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,278 +41,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads
-at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:314)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:149)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:42)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:315)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:456)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:147)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
-at helper.Utility.startBrowser(Utility.java:76)
-at assignment12.TestNGTask.setUp(TestNGTask.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-at org.testng.TestRunner.run(TestRunner.java:595)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginScenario()[pri:0, instance:assignment12.TestNGTask@5b1669c0]" started-at="2023-02-12T17:19:14 IST" name="loginScenario" finished-at="2023-02-12T17:19:14 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads
-at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:314)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:149)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:42)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:315)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:456)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:147)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
-at helper.Utility.startBrowser(Utility.java:76)
-at assignment12.TestNGTask.setUp(TestNGTask.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-at org.testng.TestRunner.run(TestRunner.java:595)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginScenario -->
-        <test-method signature="clickManageCourse()[pri:1, instance:assignment12.TestNGTask@5b1669c0]" started-at="2023-02-12T17:19:14 IST" name="clickManageCourse" finished-at="2023-02-12T17:19:14 IST" depends-on-methods="assignment12.TestNGTask.loginScenario" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method assignment12.TestNGTask.clickManageCourse() on instance assignment12.TestNGTask@5b1669c0 depends on not successfully finished methods 
-[assignment12.TestNGTask.loginScenario() on instance assignment12.TestNGTask@5b1669c0]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method assignment12.TestNGTask.clickManageCourse() on instance assignment12.TestNGTask@5b1669c0 depends on not successfully finished methods 
-[assignment12.TestNGTask.loginScenario() on instance assignment12.TestNGTask@5b1669c0]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickManageCourse -->
-        <test-method signature="clickAddNewCourse()[pri:2, instance:assignment12.TestNGTask@5b1669c0]" started-at="2023-02-12T17:19:14 IST" name="clickAddNewCourse" finished-at="2023-02-12T17:19:14 IST" depends-on-methods="assignment12.TestNGTask.clickManageCourse" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method assignment12.TestNGTask.clickAddNewCourse() on instance assignment12.TestNGTask@5b1669c0 depends on not successfully finished methods 
-[assignment12.TestNGTask.clickManageCourse() on instance assignment12.TestNGTask@5b1669c0]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method assignment12.TestNGTask.clickAddNewCourse() on instance assignment12.TestNGTask@5b1669c0 depends on not successfully finished methods 
-[assignment12.TestNGTask.clickManageCourse() on instance assignment12.TestNGTask@5b1669c0]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickAddNewCourse -->
-        <test-method signature="addNewCourseForm()[pri:4, instance:assignment12.TestNGTask@5b1669c0]" started-at="2023-02-12T17:19:14 IST" name="addNewCourseForm" finished-at="2023-02-12T17:19:14 IST" depends-on-methods="assignment12.TestNGTask.clickAddNewCourse" duration-ms="1" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method assignment12.TestNGTask.addNewCourseForm() on instance assignment12.TestNGTask@5b1669c0 depends on not successfully finished methods 
-[assignment12.TestNGTask.clickAddNewCourse() on instance assignment12.TestNGTask@5b1669c0]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method assignment12.TestNGTask.addNewCourseForm() on instance assignment12.TestNGTask@5b1669c0 depends on not successfully finished methods 
-[assignment12.TestNGTask.clickAddNewCourse() on instance assignment12.TestNGTask@5b1669c0]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addNewCourseForm -->
-        <test-method signature="verifyCourse()[pri:5, instance:assignment12.TestNGTask@5b1669c0]" started-at="2023-02-12T17:19:14 IST" name="verifyCourse" finished-at="2023-02-12T17:19:14 IST" depends-on-methods="assignment12.TestNGTask.addNewCourseForm" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method assignment12.TestNGTask.verifyCourse() on instance assignment12.TestNGTask@5b1669c0 depends on not successfully finished methods 
-[assignment12.TestNGTask.addNewCourseForm() on instance assignment12.TestNGTask@5b1669c0]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method assignment12.TestNGTask.verifyCourse() on instance assignment12.TestNGTask@5b1669c0 depends on not successfully finished methods 
-[assignment12.TestNGTask.addNewCourseForm() on instance assignment12.TestNGTask@5b1669c0]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCourse -->
-        <test-method signature="verifyCourseDeleted()[pri:6, instance:assignment12.TestNGTask@5b1669c0]" started-at="2023-02-12T17:19:14 IST" name="verifyCourseDeleted" finished-at="2023-02-12T17:19:14 IST" depends-on-methods="assignment12.TestNGTask.verifyCourse" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method assignment12.TestNGTask.verifyCourseDeleted() on instance assignment12.TestNGTask@5b1669c0 depends on not successfully finished methods 
-[assignment12.TestNGTask.verifyCourse() on instance assignment12.TestNGTask@5b1669c0]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method assignment12.TestNGTask.verifyCourseDeleted() on instance assignment12.TestNGTask@5b1669c0 depends on not successfully finished methods 
-[assignment12.TestNGTask.verifyCourse() on instance assignment12.TestNGTask@5b1669c0]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCourseDeleted -->
-        <test-method signature="signOut()[pri:7, instance:assignment12.TestNGTask@5b1669c0]" started-at="2023-02-12T17:19:14 IST" name="signOut" finished-at="2023-02-12T17:19:14 IST" depends-on-methods="assignment12.TestNGTask.verifyCourseDeleted" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method assignment12.TestNGTask.signOut() on instance assignment12.TestNGTask@5b1669c0 depends on not successfully finished methods 
-[assignment12.TestNGTask.verifyCourseDeleted() on instance assignment12.TestNGTask@5b1669c0]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method assignment12.TestNGTask.signOut() on instance assignment12.TestNGTask@5b1669c0 depends on not successfully finished methods 
-[assignment12.TestNGTask.verifyCourseDeleted() on instance assignment12.TestNGTask@5b1669c0]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signOut -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment12.TestNGTask@5b1669c0]" started-at="2023-02-12T17:19:14 IST" name="tearDown" finished-at="2023-02-12T17:19:14 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- assignment12.TestNGTask -->
-    </test> <!-- ChromeTest -->
-    <test started-at="2023-02-12T17:19:13 IST" name="FirefoxTest" finished-at="2023-02-12T17:19:56 IST" duration-ms="43016">
-      <class name="assignment12.TestNGTask">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:assignment12.TestNGTask@5032714f]" started-at="2023-02-12T17:19:13 IST" name="setUp" finished-at="2023-02-12T17:19:31 IST" duration-ms="18363" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://ineuron-courses.vercel.app/login]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginScenario()[pri:0, instance:assignment12.TestNGTask@5032714f]" started-at="2023-02-12T17:19:31 IST" name="loginScenario" finished-at="2023-02-12T17:19:32 IST" duration-ms="880" status="PASS">
+        <test-method signature="loginScenario()[pri:0, instance:assignment12.TestNGTask@69e153c5]" started-at="2023-02-18T17:15:40 IST" name="loginScenario" finished-at="2023-02-18T17:15:41 IST" duration-ms="491" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[*****Login method started*****]]>
@@ -343,7 +54,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
             </line>
           </reporter-output>
         </test-method> <!-- loginScenario -->
-        <test-method signature="clickManageCourse()[pri:1, instance:assignment12.TestNGTask@5032714f]" started-at="2023-02-12T17:19:32 IST" name="clickManageCourse" finished-at="2023-02-12T17:19:35 IST" depends-on-methods="assignment12.TestNGTask.loginScenario" duration-ms="2500" status="PASS">
+        <test-method signature="clickManageCourse()[pri:1, instance:assignment12.TestNGTask@69e153c5]" started-at="2023-02-18T17:15:41 IST" name="clickManageCourse" finished-at="2023-02-18T17:15:43 IST" depends-on-methods="assignment12.TestNGTask.loginScenario" duration-ms="2360" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[*****Manage course method started*****]]>
@@ -353,7 +64,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
             </line>
           </reporter-output>
         </test-method> <!-- clickManageCourse -->
-        <test-method signature="clickAddNewCourse()[pri:2, instance:assignment12.TestNGTask@5032714f]" started-at="2023-02-12T17:19:35 IST" name="clickAddNewCourse" finished-at="2023-02-12T17:19:35 IST" depends-on-methods="assignment12.TestNGTask.clickManageCourse" duration-ms="331" status="PASS">
+        <test-method signature="clickAddNewCourse()[pri:2, instance:assignment12.TestNGTask@69e153c5]" started-at="2023-02-18T17:15:43 IST" name="clickAddNewCourse" finished-at="2023-02-18T17:15:44 IST" depends-on-methods="assignment12.TestNGTask.clickManageCourse" duration-ms="1217" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[*****Add new course method started*****]]>
@@ -363,51 +74,166 @@ at java.base/java.lang.Thread.run(Thread.java:833)
             </line>
           </reporter-output>
         </test-method> <!-- clickAddNewCourse -->
-        <test-method signature="addNewCourseForm()[pri:4, instance:assignment12.TestNGTask@5032714f]" started-at="2023-02-12T17:19:35 IST" name="addNewCourseForm" finished-at="2023-02-12T17:19:41 IST" depends-on-methods="assignment12.TestNGTask.clickAddNewCourse" duration-ms="6284" status="PASS">
+        <test-method signature="addNewCourseForm()[pri:4, instance:assignment12.TestNGTask@69e153c5]" started-at="2023-02-18T17:15:44 IST" name="addNewCourseForm" finished-at="2023-02-18T17:15:49 IST" depends-on-methods="assignment12.TestNGTask.clickAddNewCourse" duration-ms="4270" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a5e46ac9dfd3bb95692e94a84462706, getElementText {id=99c7ee88-3338-4b6c-a056-bf7198a0bd4f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SKSUNT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52122}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52122/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3a5e46ac9dfd3bb95692e94a84462706)] -> xpath: //tbody/tr/td[2]]
+Session ID: 3a5e46ac9dfd3bb95692e94a84462706]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a5e46ac9dfd3bb95692e94a84462706, getElementText {id=99c7ee88-3338-4b6c-a056-bf7198a0bd4f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SKSUNT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52122}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52122/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3a5e46ac9dfd3bb95692e94a84462706)] -> xpath: //tbody/tr/td[2]]
+Session ID: 3a5e46ac9dfd3bb95692e94a84462706
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:207)
+at assignment12.TestNGTask.addNewCourseForm(TestNGTask.java:114)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
             <line>
               <![CDATA[*****Add new course Form method started*****]]>
             </line>
-            <line>
-              <![CDATA[*****Add new course Form method stopped*****]]>
-            </line>
           </reporter-output>
         </test-method> <!-- addNewCourseForm -->
-        <test-method signature="verifyCourse()[pri:5, instance:assignment12.TestNGTask@5032714f]" started-at="2023-02-12T17:19:41 IST" name="verifyCourse" finished-at="2023-02-12T17:19:42 IST" depends-on-methods="assignment12.TestNGTask.addNewCourseForm" duration-ms="296" status="PASS">
+        <test-method signature="verifyCourse()[pri:5, instance:assignment12.TestNGTask@69e153c5]" started-at="2023-02-18T17:15:49 IST" name="verifyCourse" finished-at="2023-02-18T17:15:49 IST" depends-on-methods="assignment12.TestNGTask.addNewCourseForm" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method assignment12.TestNGTask.verifyCourse() on instance assignment12.TestNGTask@69e153c5 depends on not successfully finished methods 
+[assignment12.TestNGTask.addNewCourseForm() on instance assignment12.TestNGTask@69e153c5]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method assignment12.TestNGTask.verifyCourse() on instance assignment12.TestNGTask@69e153c5 depends on not successfully finished methods 
+[assignment12.TestNGTask.addNewCourseForm() on instance assignment12.TestNGTask@69e153c5]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
-            <line>
-              <![CDATA[*****Verify new course method started*****]]>
-            </line>
-            <line>
-              <![CDATA[*****Verify new course method stopped*****]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyCourse -->
-        <test-method signature="verifyCourseDeleted()[pri:6, instance:assignment12.TestNGTask@5032714f]" started-at="2023-02-12T17:19:42 IST" name="verifyCourseDeleted" finished-at="2023-02-12T17:19:54 IST" depends-on-methods="assignment12.TestNGTask.verifyCourse" duration-ms="12026" status="PASS">
+        <test-method signature="verifyCourseDeleted()[pri:6, instance:assignment12.TestNGTask@69e153c5]" started-at="2023-02-18T17:15:49 IST" name="verifyCourseDeleted" finished-at="2023-02-18T17:15:49 IST" depends-on-methods="assignment12.TestNGTask.verifyCourse" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method assignment12.TestNGTask.verifyCourseDeleted() on instance assignment12.TestNGTask@69e153c5 depends on not successfully finished methods 
+[assignment12.TestNGTask.verifyCourse() on instance assignment12.TestNGTask@69e153c5]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method assignment12.TestNGTask.verifyCourseDeleted() on instance assignment12.TestNGTask@69e153c5 depends on not successfully finished methods 
+[assignment12.TestNGTask.verifyCourse() on instance assignment12.TestNGTask@69e153c5]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
-            <line>
-              <![CDATA[*****Verify course delted method started*****]]>
-            </line>
-            <line>
-              <![CDATA[*****Verify course delted method stopped*****]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyCourseDeleted -->
-        <test-method signature="signOut()[pri:7, instance:assignment12.TestNGTask@5032714f]" started-at="2023-02-12T17:19:54 IST" name="signOut" finished-at="2023-02-12T17:19:54 IST" depends-on-methods="assignment12.TestNGTask.verifyCourseDeleted" duration-ms="324" status="PASS">
+        <test-method signature="signOut()[pri:7, instance:assignment12.TestNGTask@69e153c5]" started-at="2023-02-18T17:15:49 IST" name="signOut" finished-at="2023-02-18T17:15:49 IST" depends-on-methods="assignment12.TestNGTask.verifyCourseDeleted" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method assignment12.TestNGTask.signOut() on instance assignment12.TestNGTask@69e153c5 depends on not successfully finished methods 
+[assignment12.TestNGTask.verifyCourseDeleted() on instance assignment12.TestNGTask@69e153c5]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method assignment12.TestNGTask.signOut() on instance assignment12.TestNGTask@69e153c5 depends on not successfully finished methods 
+[assignment12.TestNGTask.verifyCourseDeleted() on instance assignment12.TestNGTask@69e153c5]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
-            <line>
-              <![CDATA[*****Sign out method started*****]]>
-            </line>
-            <line>
-              <![CDATA[*****Sign out method stopped*****]]>
-            </line>
           </reporter-output>
         </test-method> <!-- signOut -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment12.TestNGTask@5032714f]" started-at="2023-02-12T17:19:54 IST" name="tearDown" finished-at="2023-02-12T17:19:56 IST" duration-ms="1877" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment12.TestNGTask@69e153c5]" started-at="2023-02-18T17:15:49 IST" name="tearDown" finished-at="2023-02-18T17:15:49 IST" duration-ms="303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- assignment12.TestNGTask -->
-    </test> <!-- FirefoxTest -->
+    </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>

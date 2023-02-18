@@ -11,10 +11,10 @@
           <include name="verifyCourse"/>
           <include name="loginScenario"/>
           <include name="clickAddNewCourse"/>
-          <include name="clickManageCourse"/>
           <include name="addNewCourseForm"/>
-          <include name="setUp"/>
+          <include name="clickManageCourse"/>
           <include name="signOut"/>
+          <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- assignment12.TestNGTask -->
