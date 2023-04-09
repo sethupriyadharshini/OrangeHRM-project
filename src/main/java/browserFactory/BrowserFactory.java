@@ -28,7 +28,7 @@ public class BrowserFactory {
 			ChromeOptions opt=new ChromeOptions();
 			opt.addArguments("--headless");
 			opt.addArguments("--no-sandbox");
-			options.addArguments("--remote-allow-origins=*");
+			opt.addArguments("--remote-allow-origins=*");
 			driver=new ChromeDriver(opt);
 		}
 		else if(browserName.contains("Firefox"))
