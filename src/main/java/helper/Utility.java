@@ -23,7 +23,11 @@ public class Utility {
 	
 	public static void typeValuesInTextBox(WebDriver driver, By locator, String values)
 	{
-		driver.findElement(locator).sendKeys(values);
+		try{
+			driver.findElement(locator).sendKeys(values);
+		} catch(Exception e) {
+			Utility.explicitWaitForVisoble(driver, 10, locator);
+		}
 	}
 	
 	public static void clickElement(WebDriver driver, By locator) {
@@ -105,6 +109,12 @@ public class Utility {
 	public static WebElement explicitWait(WebDriver driver, int sec, By locator) {
 		WebDriverWait wb= new WebDriverWait(driver, Duration.ofSeconds(sec));
 		WebElement ele = wb.until(ExpectedConditions.elementToBeClickable(locator));
+		return ele;
+	}
+	
+	public static WebElement explicitWaitForVisoble(WebDriver driver, int sec, By locator) {
+		WebDriverWait wb= new WebDriverWait(driver, Duration.ofSeconds(sec));
+		WebElement ele = wb.until(ExpectedConditions.visibilityOfElementLocated(locator));
 		return ele;
 	}
 
