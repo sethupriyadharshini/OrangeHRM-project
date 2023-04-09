@@ -26,7 +26,6 @@ public class BrowserFactory {
 		if(browserName.contains("Chrome") || browserName.contains("GC") || browserName.contains("Google Chrome"))
 		{
 			ChromeOptions opt=new ChromeOptions();
-			driver=new ChromeDriver();
 			opt.addArguments("--headless");
 			opt.addArguments("--no-sandbox");
 			driver=new ChromeDriver(opt);
