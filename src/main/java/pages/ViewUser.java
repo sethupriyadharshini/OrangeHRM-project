@@ -41,7 +41,7 @@ public class ViewUser {
 	By delete_btn = By.xpath("//button[.=' Yes, Delete ']");
 	
 	public Logout searchUser(String name,String role,String e_name,String emp_name,String status) {
-		Utility.waitForSeconds(2000);
+		Utility.waitForSeconds(6000);
 		Utility.typeValuesInTextBox(driver, user_name, name);
 		Utility.clickElement(driver, user_role_arrow);
 		Utility.clickElementPassingUserInput(driver, select_user_role, role);
