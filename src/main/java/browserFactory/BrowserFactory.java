@@ -26,7 +26,7 @@ public class BrowserFactory {
 		if(browserName.contains("Chrome") || browserName.contains("GC") || browserName.contains("Google Chrome"))
 		{
 			ChromeOptions opt=new ChromeOptions();
-			//opt.addArguments("--headless");
+			opt.addArguments("--headless");
 			opt.addArguments("--no-sandbox");
 			opt.addArguments("--remote-allow-origins=*");
 			driver=new ChromeDriver(opt);
